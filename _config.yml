@@ -1,0 +1,33 @@
+title: openJourno
+description: Read. Empower. Defy.
+author: openJourno
+email: openjourno@gmail.com
+
+theme: minima
+markdown: kramdown
+
+# Blog settings
+paginate: 6
+paginate_path: "/page/:num/"
+
+# Enable RSS
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Categories
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: openjourno
+
+# Social
+twitter_username: openjourno
+github_username: openjourno
