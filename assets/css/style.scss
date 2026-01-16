@@ -40,7 +40,6 @@ body {
   text-decoration: underline;
 }
 
-
 /* Main content */
 .page-content {
   max-width: 900px;
@@ -72,4 +71,14 @@ body {
 .site-footer {
   background: #fff;
   border-top: 1px solid #ddd;
+}
+
+.social-links a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
 }
