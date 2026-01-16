@@ -1,21 +1,7 @@
 ---
-layout: home
+layout: default
 title: openJourno
 ---
-
-<header class="site-header wrapper">
-  <h1 class="site-title"><a href="{{ '/' | relative_url }}">openJourno</a></h1>
-  <p class="site-tagline">Read. Empower. Defy.</p>
-
-  <nav class="site-nav">
-    {% assign cats = "Books,Careers,Culture,Education,Events,Health,Lifestyle,Movies,News,Opinion,Scholarships,Sports,Technology,Wealth" | split: "," %}
-    <ul>
-      {% for cat in cats %}
-      <li><a href="/categories/{{ cat | downcase }}/">{{ cat }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
-</header>
 
 <main class="wrapper">
   <section class="latest-posts">
