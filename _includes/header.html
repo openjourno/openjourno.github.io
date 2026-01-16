@@ -6,12 +6,10 @@
     <p class="site-tagline"><strong>Read • Empower • Defy</strong></p>
 
     <nav class="site-nav">
-        <p>
-        {% assign cats = "Books,Careers,Culture,Education,Events,Health,Lifestyle,Movies,News,Opinion,Scholarships,Sports,Technology,Wealth" | split: "," %}
-        {% for cat in cats %}
-        <li><a href="/categories/{{ cat | downcase }}/">{{ cat }}</a></li>
-        {% endfor %}
-        •</p>
+      {% assign cats = "Books,Careers,Culture,Education,Events,Health,Lifestyle,Movies,News,Opinion,Scholarships,Sports,Technology,Wealth" | split: "," %}
+      {% for cat in cats %}
+        <a href="/categories/{{ cat | downcase }}/">{{ cat }}</a>{% unless forloop.last %} • {% endunless %}
+      {% endfor %}
     </nav>
 
     <!-- Dark mode toggle button -->
