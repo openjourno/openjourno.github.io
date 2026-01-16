@@ -1,8 +1,6 @@
 # openJourno
 
-## Our Motto
-
-**Read • Empower • Defy**  
+## Our Motto **Read • Empower • Defy**  
 
 **openJourno** is an **open-source, community-driven journalism platform** dedicated to **amplifying underrepresented voices** and delivering **trustworthy, transparent reporting**. We embrace **new wave journalism**—innovative, accountable, and engaging content for the modern reader.  
 
