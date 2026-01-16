@@ -6,9 +6,9 @@
 
 ---
 
-## Our Mission
+## Mission
 
-At **openJourno**, we believe in **truth, accessibility, and storytelling that matters**. Our coverage spans global and local issues, providing readers with content that is timely, factual, and insightful, while celebrating diverse perspectives and creative journalistic forms.  
+**openJourno**, we believe in **truth, accessibility, and storytelling that matters**. Our coverage spans global and local issues, providing readers with content that is timely, factual, and insightful, while celebrating diverse perspectives and creative journalistic forms.  
 
 
 ---
