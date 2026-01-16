@@ -6,17 +6,17 @@
 
 **Empower.** Support and amplify underrepresented perspectives, helping communities and journalists to make their impact heard.  
 
-**Defy.** Challenge misinformation, outdated norms, and biased reporting with journalism that is **ethical, innovative, and accountable**.  
-
-**openJourno** is an **open-source, community-driven journalism platform** dedicated to **amplifying underrepresented voices** and delivering **trustworthy, transparent reporting**. We embrace **new wave journalism**—innovative, accountable, and engaging content for the modern reader.  
-
-**openJourno** is more than a platform; it’s a **movement toward open-source truth, credible reporting, and the democratization of news**.  
+**Defy.** Challenge misinformation, outdated norms, and biased reporting with journalism that is **ethical, innovative, and accountable**.    
 
 ---
 
 ## Mission
 
 **openJourno** believes in **truth, accessibility, and storytelling that matters**. We cover both global and local issues, providing readers with content that is **timely, factual, and insightful**, while celebrating **diverse perspectives** and innovative journalistic formats.  
+
+**openJourno** is an **open-source, community-driven journalism platform** dedicated to **amplifying underrepresented voices** and delivering **trustworthy, transparent reporting**. We embrace **new wave journalism**—innovative, accountable, and engaging content for the modern reader.  
+
+**openJourno** is more than a platform; it’s a **movement toward open-source truth, credible reporting, and the democratization of news**.
 
 Our mission is to empower journalists and readers alike:  
 
