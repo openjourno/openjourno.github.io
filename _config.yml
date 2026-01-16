@@ -1,11 +1,15 @@
 title: openJourno
 description: Read. Empower. Defy.
-
-email: openjourno@gmail.com
-
 theme: minima
 markdown: kramdown
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
+
+collections:
+  authors:
+    output: true
