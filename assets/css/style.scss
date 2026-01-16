@@ -10,6 +10,12 @@ body {
   color: #111;
 }
 
+.page-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
 /* Header */
 .site-header {
   border-bottom: 3px solid #000;
