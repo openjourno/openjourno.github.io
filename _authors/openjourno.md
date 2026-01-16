@@ -1,7 +1,8 @@
 ---
 layout: author
 name: openJourno
-bio: Open-source journalism collective focused on overlooked stories.
+slug: openjourno
+bio: >
+  Open-source journalism collective focused on overlooked stories.
+  openJourno is a community-driven journalism initiative.
 ---
-
-openJourno is a community-driven journalism initiative.
