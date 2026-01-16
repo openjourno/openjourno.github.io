@@ -4,8 +4,8 @@
    TYPOGRAPHY & BODY
 ======================================== */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* clean reading body */
-  background: #f8f8f8; /* light Medium-style background */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f8f8f8;
   color: #1a1a1a;
   line-height: 1.7;
   margin: 0;
@@ -20,8 +20,8 @@ body {
 }
 
 .page-content.wrapper {
-  padding-top: 140px;   /* space for header */
-  padding-bottom: 120px; /* space for footer */
+  padding-top: 140px;
+  padding-bottom: 120px;
 }
 
 /* ========================================
@@ -72,6 +72,7 @@ a:hover {
   padding: 1rem 0;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .site-title a {
@@ -92,7 +93,9 @@ a:hover {
   color: #666;
 }
 
-/* NAVIGATION */
+/* ========================================
+   NAVIGATION
+======================================== */
 .site-nav {
   display: flex;
   flex-wrap: wrap;
@@ -112,11 +115,6 @@ a:hover {
   color: #0b49a1;
 }
 
-/* Optional: smaller dot spacing */
-.site-nav::after {
-  content: '';
-}
-
 /* ========================================
    POSTS / CARDS
 ======================================== */
@@ -132,7 +130,7 @@ a:hover {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s, color 0.3s;
 }
 
 .post-card:hover {
@@ -152,6 +150,7 @@ a:hover {
   text-decoration: none;
   border-radius: 3px;
   margin-right: 0.4rem;
+  transition: opacity 0.2s;
 }
 
 .post-categories a:hover {
@@ -174,12 +173,14 @@ a:hover {
   box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
   font-size: 0.9rem;
   color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .social-links a {
   margin: 0 0.5rem;
   color: #111;
   font-weight: 500;
+  transition: color 0.2s;
 }
 
 .social-links a:hover {
@@ -188,7 +189,7 @@ a:hover {
 }
 
 /* ========================================
-   TRANSITIONS FOR DARK MODE
+   TRANSITIONS FOR ELEMENTS
 ======================================== */
 body,
 .site-header,
@@ -200,103 +201,8 @@ section,
 }
 
 /* ========================================
-   DARK MODE
+   DARK MODE REMOVED – Elegant & Clean
 ======================================== */
-body.dark-mode {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-/* Links */
-body.dark-mode a {
-  color: #4ea1f2;
-}
-
-body.dark-mode a:hover {
-  color: #82c0ff;
-}
-
-/* Header */
-body.dark-mode .site-header {
-  background-color: #1a1a1a;
-  color: #f5f5f5;
-  border-bottom: 1px solid #333;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-}
-
-/* Navigation */
-body.dark-mode .site-nav a {
-  color: #f5f5f5;
-}
-
-body.dark-mode .site-nav a:hover {
-  background-color: #f5f5f5;
-  color: #1e1e1e;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Sections & Post Cards */
-body.dark-mode section,
-body.dark-mode .post-card,
-body.dark-mode .about-site {
-  background-color: #1e1e1e;
-  color: #e0e0e0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-/* Post categories */
-body.dark-mode .post-categories a {
-  background-color: #333;
-  color: #f5f5f5;
-}
-
-body.dark-mode .post-categories a:hover {
-  opacity: 0.8;
-}
-
-/* Footer */
-body.dark-mode .site-footer {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
-  border-top: 1px solid #333;
-  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
-}
-
-/* Social links */
-body.dark-mode .social-links a {
-  color: #90caf9;
-}
-
-body.dark-mode .social-links a:hover {
-  color: #1a73e8;
-  text-decoration: underline;
-}
-
-/* Dark mode toggle button */
-#darkModeToggle {
-  position: absolute;
-  top: 1rem;
-  right: 1.5rem;
-  background: #1a73e8;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 2.2rem;
-  height: 2.2rem;
-  cursor: pointer;
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  transition: background 0.3s, transform 0.2s;
-  z-index: 1100;
-}
-
-#darkModeToggle:hover {
-  background: #0b49a1;
-  transform: scale(1.1);
-}
 
 /* ========================================
    RESPONSIVE
