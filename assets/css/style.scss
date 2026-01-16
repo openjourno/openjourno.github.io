@@ -187,28 +187,26 @@ a:hover {
 }
 
 /* ========================================
+   TRANSITIONS FOR DARK MODE
+======================================== */
+body,
+.site-header,
+.site-footer,
+section,
+.post-card,
+.about-site {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ========================================
    DARK MODE
 ======================================== */
 body.dark-mode {
-  background: #121212;
+  background-color: #121212;
   color: #e0e0e0;
 }
 
-body.dark-mode section,
-body.dark-mode .post-card {
-  background: #1e1e1e;
-  color: #e0e0e0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-body.dark-mode .site-header,
-body.dark-mode .site-footer {
-  background: #1a1a1a;
-  border-color: #333;
-  color: #f5f5f5;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-}
-
+/* Links */
 body.dark-mode a {
   color: #4ea1f2;
 }
@@ -216,6 +214,63 @@ body.dark-mode a {
 body.dark-mode a:hover {
   color: #82c0ff;
 }
+
+/* Header */
+body.dark-mode .site-header {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+/* Navigation */
+body.dark-mode .site-nav a {
+  color: #f5f5f5;
+}
+
+body.dark-mode .site-nav a:hover {
+  background-color: #f5f5f5;
+  color: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Sections & Post Cards */
+body.dark-mode section,
+body.dark-mode .post-card,
+body.dark-mode .about-site {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Post categories */
+body.dark-mode .post-categories a {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+body.dark-mode .post-categories a:hover {
+  opacity: 0.8;
+}
+
+/* Footer */
+body.dark-mode .site-footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-top: 1px solid #333;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+}
+
+/* Social links */
+body.dark-mode .social-links a {
+  color: #90caf9;
+}
+
+body.dark-mode .social-links a:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
 /* Dark mode toggle button */
 #darkModeToggle {
   position: absolute;
