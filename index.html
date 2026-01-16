@@ -1,46 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>openJourno | Read. Empower. Defy.</title>
-  <link rel="stylesheet" href="/assets/style.scss">
-</head>
-<body>
+---
+layout: default
+title: openJourno
+---
+<main class="page-content wrapper">
 
-  <!-- HEADER -->
-  {% include header.html %}
+  <!-- LATEST ARTICLES -->
+  <section class="latest-posts">
+    <h2>Latest Articles</h2>
+    <div class="posts-grid">
+      {% for post in site.posts limit:6 %}
+      <article class="post-card">
+        <h3 class="post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+        <p class="post-categories">
+          {% for category in post.categories %}
+          <a href="/categories/{{ category | downcase }}/">{{ category }}</a>
+          {% endfor %}
+        </p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
-  <!-- MAIN CONTENT -->
-  <main class="page-content wrapper">
-    <section class="latest-posts">
-      <h2>Latest Articles</h2>
-      <div class="posts-grid">
-        {% for post in site.posts limit:6 %}
-        <article class="post-card">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p>{{ post.excerpt }}</p>
-          <p class="post-categories">
-            {% for category in post.categories %}
-            <a href="/categories/{{ category | downcase }}/">{{ category }}</a>
-            {% endfor %}
-          </p>
-        </article>
-        {% endfor %}
-      </div>
-    </section>
+  <!-- ABOUT SECTION -->
+  <section class="about-site">
+    <h2>About openJourno</h2>
+    <p>
+      openJourno is an open-source, community-driven journalism initiative.
+      We cover underrepresented stories, events, careers, scholarships, books, movies, and more.
+      Read • Empower • Defy.
+    </p>
+  </section>
 
-    <section class="about-site">
-      <h2>About openJourno</h2>
-      <p>
-        openJourno is an open-source, community-driven journalism initiative.
-        We cover underrepresented stories, events, careers, scholarships, books, movies, and more.
-      </p>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  {% include footer.html %}
-
-</body>
-</html>
+</main>
