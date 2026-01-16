@@ -2,11 +2,11 @@
 
 ### Read • Empower • Defy
 
-**Read.** Explore stories that matter, from voices often overlooked, and stay informed with **trustworthy, transparent journalism**.  
+**Read**: Explore stories that matter, from voices often overlooked, and stay informed with **trustworthy, transparent journalism**.  
 
-**Empower.** Support and amplify underrepresented perspectives, helping communities and journalists to make their impact heard.  
+**Empower**: Support and amplify underrepresented perspectives, helping communities and journalists to make their impact heard.  
 
-**Defy.** Challenge misinformation, outdated norms, and biased reporting with journalism that is **ethical, innovative, and accountable**.    
+**Defy**: Challenge misinformation, outdated norms, and biased reporting with journalism that is **ethical, innovative, and accountable**.    
 
 ---
 
