@@ -1,0 +1,57 @@
+---
+layout: home
+title: openJourno
+---
+
+<header class="site-header">
+  <div class="wrapper">
+    <h1 class="site-title">
+      <a href="{{ '/' | relative_url }}">openJourno</a>
+    </h1>
+    <p class="site-tagline">Read. Empower. Defy.</p>
+
+    <nav class="site-nav">
+      <a href="/categories/books/">Books</a>
+      <a href="/categories/careers/">Careers</a>
+      <a href="/categories/culture/">Culture</a>
+      <a href="/categories/education/">Education</a>
+      <a href="/categories/events/">Events</a>
+      <a href="/categories/health/">Health</a>
+      <a href="/categories/lifestyle/">Lifestyle</a>
+      <a href="/categories/movies/">Movies</a>
+      <a href="/categories/news/">News</a>
+      <a href="/categories/opinion/">Opinion</a>
+      <a href="/categories/scholarships/">Scholarships</a>
+      <a href="/categories/sports/">Sports</a>
+      <a href="/categories/technology/">Technology</a>
+      <a href="/categories/wealth/">Wealth</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-content wrapper">
+  <section class="latest-posts">
+    <h2>Latest Articles</h2>
+    {% for post in site.posts limit:5 %}
+    <article class="post">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <p class="post-categories">
+        {% for category in post.categories %}
+          <a href="/categories/{{ category | downcase }}/">{{ category }}</a>
+        {% endfor %}
+      </p>
+    </article>
+    {% endfor %}
+  </section>
+
+  <section class="about-site">
+    <h2>About openJourno</h2>
+    <p>
+      openJourno is an open-source, community-driven journalism initiative.
+      We cover underrepresented stories, events, careers, scholarships, books, movies, and more.
+    </p>
+  </section>
+</main>
+
+{% include footer.html %}
