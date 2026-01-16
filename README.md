@@ -46,6 +46,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## Join the Movement
+## Together
 
 **openJourno** is more than a platform; it’s a movement toward **open-source truth, credible reporting, and the democratization of news**. Join us in creating **journalism that empowers readers and challenges the status quo**.
