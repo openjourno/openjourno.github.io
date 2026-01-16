@@ -1,14 +1,16 @@
 # openJourno
 
+## Our Motto
+
 **Read • Empower • Defy**  
 
 **openJourno** is an **open-source, community-driven journalism platform** dedicated to **amplifying underrepresented voices** and delivering **trustworthy, transparent reporting**. We embrace **new wave journalism**—innovative, accountable, and engaging content for the modern reader.  
 
 ---
 
-## Our Mission
+## Mission
 
-At **openJourno**, we believe in **truth, accessibility, and storytelling that matters**. We cover both global and local issues, providing readers with content that is **timely, factual, and insightful**, while celebrating **diverse perspectives** and innovative journalistic formats.  
+**openJourno**, we believe in **truth, accessibility, and storytelling that matters**. We cover both global and local issues, providing readers with content that is **timely, factual, and insightful**, while celebrating **diverse perspectives** and innovative journalistic formats.  
 
 Our mission is to empower journalists and readers alike:  
 
@@ -55,10 +57,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## Join the Movement
+## Empower
 
 **openJourno** is more than a platform; it’s a **movement toward open-source truth, credible reporting, and the democratization of news**.  
 
-Together, we can create **journalism that empowers readers, amplifies underrepresented voices, and challenges the status quo**.  
-
-**Read. Empower. Defy.**
+Together, we can create **journalism that empowers readers, amplifies underrepresented voices, and challenges the status quo**.
