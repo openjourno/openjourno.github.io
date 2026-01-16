@@ -27,7 +27,7 @@ Follow us to discover, discuss, and contribute to journalism that **empowers, ed
 - [Twitter](https://x.com/openJourno) – breaking news, updates, and insights  
 - [Instagram](https://www.instagram.com/openjourno) – visual storytelling and behind-the-scenes  
 - [Threads](https://www.threads.net/@openjourno) – conversations on reporting, ethics, and ideas  
-- [LinkedIn](https://www.linkedin.com/company/open-journo-96b4843a6) – professional journalism network  
+- [LinkedIn](https://www.linkedin.com/in/open-journo-96b4843a6/) – professional journalism network  
 - [YouTube](https://www.youtube.com/@openJourno) – documentaries, interviews, and investigative features  
 
 Your engagement fuels **journalism that is open, honest, and accountable**. Share responsibly, discuss critically, and amplify voices that deserve to be heard.  
