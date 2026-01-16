@@ -2,13 +2,21 @@
 
 ### Read • Empower • Defy
 
+**Read.** Explore stories that matter, from voices often overlooked, and stay informed with **trustworthy, transparent journalism**.  
+
+**Empower.** Support and amplify underrepresented perspectives, helping communities and journalists to make their impact heard.  
+
+**Defy.** Challenge misinformation, outdated norms, and biased reporting with journalism that is **ethical, innovative, and accountable**.  
+
 **openJourno** is an **open-source, community-driven journalism platform** dedicated to **amplifying underrepresented voices** and delivering **trustworthy, transparent reporting**. We embrace **new wave journalism**—innovative, accountable, and engaging content for the modern reader.  
+
+**openJourno** is more than a platform; it’s a **movement toward open-source truth, credible reporting, and the democratization of news**.  
 
 ---
 
 ## Mission
 
-**openJourno**, we believe in **truth, accessibility, and storytelling that matters**. We cover both global and local issues, providing readers with content that is **timely, factual, and insightful**, while celebrating **diverse perspectives** and innovative journalistic formats.  
+**openJourno** believes in **truth, accessibility, and storytelling that matters**. We cover both global and local issues, providing readers with content that is **timely, factual, and insightful**, while celebrating **diverse perspectives** and innovative journalistic formats.  
 
 Our mission is to empower journalists and readers alike:  
 
@@ -44,6 +52,7 @@ Your engagement fuels **journalism that is open, honest, and accountable**. Shar
 3. Open a pull request for review  
 
 Your participation strengthens our commitment to **transparent, ethical journalism**.  
+Together, we can create **journalism that empowers readers, amplifies underrepresented voices, and challenges the status quo**.
 
 **Guidelines:** See [CONTRIBUTING.md](CONTRIBUTING.md) (coming soon) for standards and tips.  
 
@@ -54,9 +63,3 @@ Your participation strengthens our commitment to **transparent, ethical journali
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details. (coming soon)  
 
 ---
-
-## Empower
-
-**openJourno** is more than a platform; it’s a **movement toward open-source truth, credible reporting, and the democratization of news**.  
-
-Together, we can create **journalism that empowers readers, amplifies underrepresented voices, and challenges the status quo**.
