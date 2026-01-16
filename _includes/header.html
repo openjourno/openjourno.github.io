@@ -1,23 +1,24 @@
 <header class="site-header">
-
   <div class="site-title-wrapper">
-    <!-- Home icon -->
-    <a href="/" class="home-icon" aria-label="Home">
-      🏠
-    </a>
+    <div class="title-row">
+      <!-- Home icon -->
+      <a href="/" class="home-icon" aria-label="Home">
+        🏡
+      </a>
 
-    <!-- Site title (no link) -->
-    <h1 class="site-title">openJourno</h1>
+      <!-- Site title -->
+      <h1 class="site-title">openJourno</h1>
+    </div>
 
     <!-- Tagline -->
     <p class="site-tagline">Read • Empower • Defy</p>
 
+    <!-- Navigation -->
     <nav class="site-nav">
       {% assign cats = "Books,Careers,Culture,Education,Events,Health,Lifestyle,Movies,News,Opinion,Scholarships,Sports,Technology,Wealth" | split: "," %}
       {% for cat in cats %}
         <a href="/categories/{{ cat | downcase }}/">{{ cat }}</a>{% unless forloop.last %} • {% endunless %}
       {% endfor %}
     </nav>
-
   </div>
 </header>
